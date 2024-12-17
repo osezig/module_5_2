@@ -20,7 +20,11 @@ class House:
 H1 = House('ЖК Кирпичи', '23')
 print(f'Название объекта недвижимости - {H1.name}, этажность здания - {H1.number_of_floor}')
 H1.go_to(12)
+# __str__
 print(H1)
+# __len__
+print(len(H1))
+
 
 
 
